@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&family=Rajdhani:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Rajdhani",sans-serif;
+    
+}
+main{
+    background-color: midnightblue;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: blanchedalmond;
+}
+
+main > div{
+    margin: 30px;
+    color: black;
+}
+.palindrome{
+    
+    display: flex;
+    padding: 20px;
+    width: min(100vw,450px);
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    background-color: antiquewhite;
+    p{
+        margin-bottom: 25px;
+        font-weight: 600;
+        font-size: 1.3rem;
+    }
+}
+
+#text-input{
+    width:250px;
+}
+#check-btn{
+    margin-left: 10px;
+    width: 90px;
+    background-color: darkmagenta;
+    padding: 15px;
+    text-align: center;
+    border: 0;
+    border-radius: 25px;;
+    cursor: pointer;
+    color: blanchedalmond;
+}
+#check-btn:hover{
+    background-color: mediumslateblue;
+    color: blanchedalmond;
+
+}
+
+#result{
+    margin-top: 25px;
+}
+
+.definition{
+    background-color: green;
+    padding: 20px;
+    border-radius: 25px;
+    color: blanchedalmond;
+
+}
